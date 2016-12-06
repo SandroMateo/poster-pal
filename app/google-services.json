@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "3988336162",
+    "firebase_url": "https://posterpal-a5e66.firebaseio.com",
+    "project_id": "posterpal-a5e66",
+    "storage_bucket": "posterpal-a5e66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3988336162:android:db33fb106f1749c3",
+        "android_client_info": {
+          "package_name": "com.example.guest.posterpal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3988336162-tnopnprusg8n3tm0q9tfnleke1uao0fr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.guest.posterpal",
+            "certificate_hash": "A85E8A91A31255B722522F644EA6AB08015694FF"
+          }
+        },
+        {
+          "client_id": "3988336162-d0cnog1hru2lps9auifc5of423ok2mpn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLNlgEMF20ifamC_R2DUkJRJE_Rg1Ep5c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3988336162-d0cnog1hru2lps9auifc5of423ok2mpn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
