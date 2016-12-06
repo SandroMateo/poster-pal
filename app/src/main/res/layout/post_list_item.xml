@@ -24,7 +24,7 @@
             android:textSize="20dp"
             android:textStyle="bold"
             android:text="Category"
-            android:textColor="@color/colorPrimary"/>
+            android:textColor="@color/primary"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
                 android:id="@+id/timestampTextView"
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentRight="true"
-                android:textColor="@color/colorAccent"/>
+                android:textColor="@color/accent"/>
         </RelativeLayout>
     </LinearLayout>
 

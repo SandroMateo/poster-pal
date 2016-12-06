@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.guest.posterpal.R;
+import com.example.guest.posterpal.models.Post;
 import com.squareup.picasso.Picasso;
 
 import org.parceler.Parcels;
