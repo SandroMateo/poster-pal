@@ -12,6 +12,8 @@ public class Post {
     private String timestamp;
     private String imageUrl;
 
+    public Post(){}
+
     public Post(String content, String user, String timestamp, String imageUrl) {
         this.content = content;
         this.user = user;
