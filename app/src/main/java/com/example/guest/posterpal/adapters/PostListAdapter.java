@@ -66,16 +66,16 @@ public class PostListAdapter extends RecyclerView.Adapter<PostListAdapter.PostVi
             itemView.setOnClickListener(this);
         }
 
-        public void bindPosts(Post post) {
+        public void bindPosts(Post post, String category) {
             Picasso.with(mContext)
-                    .load(Post.getImageUrl())
+                    .load(post.getImageUrl())
                     .resize(MAX_WIDTH, MAX_HEIGHT)
                     .centerCrop()
                     .into(mPostImageView);
 
-            mCategoryView.setText(post.getCategory());
-            mContentView.setText(Post.getContent());
-            mTimestampView.setText(Post.getTimestamp());
+            mCategoryView.setText(category);
+            mContentView.setText(post.getContent());
+            mTimestampView.setText(post.getTimestamp());
         }
 
         @Override
