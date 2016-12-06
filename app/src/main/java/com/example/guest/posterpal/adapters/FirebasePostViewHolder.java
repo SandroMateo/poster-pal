@@ -10,6 +10,7 @@ import android.widget.TextView;
 import com.example.guest.posterpal.Constants;
 import com.example.guest.posterpal.R;
 import com.example.guest.posterpal.models.Post;
+import com.example.guest.posterpal.ui.PostActivity;
 import com.example.guest.posterpal.ui.TrendingActivity;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -68,7 +69,7 @@ public class FirebasePostViewHolder extends RecyclerView.ViewHolder implements V
                 }
                 int itemPostion = getLayoutPosition();
 
-                Intent intent = new Intent(mContext, TrendingActivity.class);
+                Intent intent = new Intent(mContext, PostActivity.class);
                 intent.putExtra("position", itemPostion + "");
                 intent.putExtra("posts", Parcels.wrap(posts));
 

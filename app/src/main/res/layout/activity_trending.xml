@@ -8,32 +8,39 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:weightSum="1">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="150dp">
+            android:layout_height="150dp"
+            android:orientation="horizontal">
 
-
-
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/trendingCategoryRecyclerView"
+                android:layout_weight="0.91">
+            </android.support.v7.widget.RecyclerView>
 
         </LinearLayout>
 
         <android.support.v7.widget.RecyclerView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/trendingPostsRecyclerView">
+            android:layout_height="302dp"
+            android:id="@+id/trendingPostsRecyclerView"
+            android:layout_weight="0.91">
         </android.support.v7.widget.RecyclerView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Post"
+            android:id="@+id/newPostButton" />
 
     </LinearLayout>
 
-    <ToggleButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New ToggleButton"
-        android:id="@+id/toggleButton"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+
+
+
 
 </RelativeLayout>
